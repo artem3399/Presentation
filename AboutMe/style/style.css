@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Forum');
+ body{
+ 	font-family: 'Forum', cursive;
+	background-image: url('../spiration dark.png');
+	color:#02fad5;
+	font-size:30px;
+ }
+ h1{
+ 	color:#f55b08;
+ }
+ .slide{
+
+	width:90vw;
+	height:100vh;
+ }
+
+ p,h1,ul{
+ 	position: relative;
+ 	top:30%;
+ 	left:5%;
+ 	text-align: center;
+ }
+.slide-2 p, .slide-3 p{
+	top:20%;
+}
+.slide-2 ul{
+	top:20%;
+}
+
+
+ h1{
+	top:5%;
+ }
+ .slide-4 h1{
+ 	text-transform: uppercase;
+ 	top:30%;
+ }
+ 
+ul{
+	padding: 0;
+	margin:0;
+}
+li{
+
+	text-align: center;
+	list-style: none;
+}
+
+.dots
+{
+    position: absolute;
+    top: 90%;
+    left: 48%;
+
+    width: 15px;
+    height: 15px;
+    margin-right: 10px
+    transition:background-color .6s ease;
+
+    cursor: pointer;
+
+    color: red;
+    border-radius: 30px;
+    background-color: #bbb;
+}
+
+.dots:nth-of-type(1){
+
+	top:90%;
+	left:46%;
+}
+.dots:nth-of-type(3){
+	top:90%;
+	left:50%;
+}
+.dots:nth-of-type(4){
+	top:90%;
+	left:52%;
+}
+
+.active, .dots:hover{
+ 	background-color: #717171;
+}
